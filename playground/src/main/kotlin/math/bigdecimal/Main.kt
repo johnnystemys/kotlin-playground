@@ -8,18 +8,18 @@ fun main() {
      * s.toDouble => ?
      * s.toBigDecimal => ?
      */
-//    showCase(1)
+    showCase(1)
 
     /**
      * d = 0.3
      * d.toBigDecimal => ?
      */
-//    showCase(2)
+    showCase(2)
 
     /**
      * Guess :)
      * BigDecimal("0.3") = ?
      * BigDecimal(0.3) = ?
      */
-//    showCase(3)
+    showCase(3)
 }
