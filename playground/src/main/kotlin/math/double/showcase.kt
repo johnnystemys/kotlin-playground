@@ -1,6 +1,7 @@
 package ch.jdc.math.double
 
 fun showCase(i: Int) {
+    println("> Show case: $i")
     when (i) {
         1 -> {
             val a: Double = 0.1
@@ -22,5 +23,5 @@ fun showCase(i: Int) {
 
 fun formatter(a: Double, b: Double, expected: Double): String {
     val result = a + b
-    return String.format("%s + %s == %s -> %s", a, b, expected, result == expected)
+    return "When add $a + $b we should get $expected\nActual $a + $b = $result\n"
 }
