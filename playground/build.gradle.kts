@@ -11,6 +11,7 @@ repositories {
 }
 
 dependencies {
+    implementation("org.apache.poi:poi:5.2.5")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
